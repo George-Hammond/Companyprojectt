@@ -1,0 +1,239 @@
+/*font-family: 'Montserrat', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Tajawal', sans-serif;*/
+html{
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #cfd8d8;
+    max-height: 125rem;
+}
+
+/* Styling the Header*/
+header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    bottom:  0px;
+    width: 100%;
+    border-bottom: solid 2px #eaf4f5;
+    background-color: white;
+    height:5.3125rem;
+    z-index: 100;
+}
+
+header .header-container{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 4rem;
+        
+}
+
+header img{
+    margin-top: 0.625rem;
+    height: 3.75rem;
+    width: 6.25rem;
+    margin-left: 3.125rem;
+    
+}
+
+
+header nav ul{
+    display: flex;   
+    
+}
+
+nav a{
+    text-decoration: none;
+    color: #5b8a8c;
+}
+
+nav li{
+    padding: 0rem 0.9375rem;
+    list-style: none;
+    padding-left: 3.5rem;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: #5d8a8c;
+}
+
+@media only screen and (max-width: 660px){
+	header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    bottom:  0px;
+    width: 100%;
+    border-bottom: solid 2px #eaf4f5;
+    background-color: white;
+    height: 3.3125rem;
+    z-index: 100;
+}
+
+header img{
+    display: none;
+    
+}
+
+nav li{
+	font-size: 0.85rem;
+	padding-left: 0.85rem;
+}
+}
+
+/*styling the mission section*/
+.banner{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;    
+    top: 4rem;
+    width: 100%;
+    background-image: url("../images/arnold.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 41rem;
+    border-bottom: solid 0.125rem #5d8a8c;
+}
+
+.banner-our-mission {
+    font-family: 'Quicksand', sans-serif;
+    position: relative;
+    background-color: #746d70;
+    opacity: 80%; 
+    margin: auto; 
+    padding: 0 3rem; 
+    border-radius: 7rem;
+}
+
+.banner-our-mission h1{
+    font-weight: bolder;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 0;
+    line-height: 1.6;
+}
+
+.banner-our-mission h3{
+    margin-top: 0;
+    font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 660px){
+
+	.banner-our-mission {
+    font-family: 'Quicksand', sans-serif;
+    position: relative;
+    background-color: #746d70;
+    opacity: 80%; 
+    margin: auto; 
+    padding: 0 3rem; 
+    }
+
+}
+
+/*styling the service section*/
+
+#service{
+    margin-top: 3rem;
+}
+.service-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 1rem;
+    /*height: 100rem;*/
+    flex-basis: 50rem;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+    background-image: url("../images/servBackg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+     /*width: 25rem;*/
+}
+
+.h1-services{
+
+    text-align: center;
+    margin: 0;
+}
+
+.img-container{
+    margin-left: 5rem;
+    margin-right: 5rem;
+    
+}
+.img-container img{
+    margin-top: 3rem;
+    height: 13rem;
+    width: 15rem;
+    flex-wrap: wrap;  
+        
+}
+
+.img-container img:nth-child(1){
+	flex-shrink: 2;
+}
+
+.img-container h4{
+    text-align: center;
+    background-color: honeydew;
+    opacity: 0.9;
+    border-radius: 0.25rem;
+    padding: 0.625rem 0rem;
+    font-family: 'Tajawal', sans-serif;
+    font-weight: 900;
+}
+
+/*styling the team section*/
+#the-team h1{
+    text-align: center;
+}
+.the-team-section{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /*text-align: center;*/
+    margin: auto;
+   /* height: 21rem;
+    width: 60rem;*/
+    margin-top: 1rem;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.the-team-section .img-container{
+    padding-right: 0;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.the-team-section .img-container h4{
+    background-color: rgba(240, 255, 240, 0.01);
+    font-weight: bold;
+    
+}
+
+footer{
+    background-color: #5d8a8c;
+    height: 15rem;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;  
+
+}
+
+footer div{
+    padding-top: 4rem;
+    
+}
+
+footer p{
+    color: black;
+    font-weight: 900;
+}
