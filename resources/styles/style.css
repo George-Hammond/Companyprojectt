@@ -125,7 +125,8 @@ nav li{
 
 @media only screen and (max-width: 660px){
 
-	.banner-our-mission {
+.banner-our-mission {
+
     font-family: 'Quicksand', sans-serif;
     position: relative;
     background-color: #746d70;
@@ -214,9 +215,19 @@ nav li{
     margin-right: 1rem;
 }
 
+.the-team-section .img-container h2{
+    text-align: center;
+    margin:0;
+    font-weight: bold;
+    
+}
+
 .the-team-section .img-container h4{
     background-color: rgba(240, 255, 240, 0.01);
     font-weight: bold;
+    margin:0;
+    padding:0;
+    line-height: 2;
     
 }
 
